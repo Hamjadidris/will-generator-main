@@ -67,8 +67,8 @@
     backdrop-filter: blur(5px);
 }
 @media (max-width: 1000px) {
-    #family{
-        width: 200%;
+  #family{ 
+  width: 200% !important; 
     }
     .intro h1 {
         font-size: 2.5rem;
