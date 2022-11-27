@@ -17,7 +17,7 @@ const Page3 = (props) => {
   }, []);
   return (
     <div>
-      {/* {
+      {
             loading ?
             (
                 <div className='loader'>
@@ -31,26 +31,26 @@ const Page3 = (props) => {
                 </div>
             )
             :
-                (<Will/>)
-        } */}
-      <Will
-        name = {values.name}
-        exeName = {values.exeName}
-        altName = {values.altName}
-        gauName = {values.gauName}
-        assets1 = {values.assets1}
-        beniry1Name = {values.beniry1Name}
-        beniry1Pert = {values.beniry1Pert}
-        assets2 = {values.assets2}
-        beniry1bName = {values.beniry1bName}
-        beniry1bPert = {values.beniry1bPert}
-        assets3 = {values.assets3}
-        beniry1cName = {values.beniry1cName}
-        beniry1cPert = {values.beniry1cPert}
-        assets4 = {values.assets4}
-        beniry1dName = {values.beniry1dName}
-        beniry1dPert = {values.beniry1dPert}
-      />
+            <Will
+              name = {values.name}
+              exeName = {values.exeName}
+              altName = {values.altName}
+              gauName = {values.gauName}
+              assets1 = {values.assets1}
+              beniry1Name = {values.beniry1Name}
+              beniry1Pert = {values.beniry1Pert}
+              assets2 = {values.assets2}
+              beniry1bName = {values.beniry1bName}
+              beniry1bPert = {values.beniry1bPert}
+              assets3 = {values.assets3}
+              beniry1cName = {values.beniry1cName}
+              beniry1cPert = {values.beniry1cPert}
+              assets4 = {values.assets4}
+              beniry1dName = {values.beniry1dName}
+              beniry1dPert = {values.beniry1dPert}
+            />
+                
+        }
     </div>
   );
 };
